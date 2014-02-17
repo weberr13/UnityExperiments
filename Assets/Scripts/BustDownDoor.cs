@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NEw : MonoBehaviour
+public class BustDownDoor : MonoBehaviour
 {
 
    // Use this for initialization
@@ -11,9 +11,10 @@ public class NEw : MonoBehaviour
    }
 	
    // Update is called once per frame
-   void Update ()
+   void OnMouseDown ()
    {
-
+      rigidbody.AddForce (-transform.forward * 500);
+      rigidbody.useGravity = true;
    }
 
 }
