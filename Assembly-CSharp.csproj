@@ -138,6 +138,8 @@
      <Compile Include="Assets\Scripts\ForeachLoop.cs" />
      <Compile Include="Assets\Scripts\IfStatements.cs" />
      <Compile Include="Assets\Scripts\KeyInput.cs" />
+     <Compile Include="Assets\Scripts\MoveCamera.cs" />
+     <Compile Include="Assets\Scripts\MoveWithCamera.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\Punch.cs" />
      <Compile Include="Assets\Scripts\RandomFloorBotMovement.cs" />
