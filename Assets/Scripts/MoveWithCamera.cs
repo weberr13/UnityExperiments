@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TransformFunctions : MonoBehaviour
+public class MoveWithCamera : MonoBehaviour
 {
 
    public float moveSpeed = 100f;
    public float turnSpeed = 50f;
+   public Camera theCamera;
    // Use this for initialization
    void Start ()
    {
@@ -20,11 +21,11 @@ public class TransformFunctions : MonoBehaviour
 
       if (vertValue != 0) {
          //transform.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
-         rigidbody.AddForce (transform.forward * vertValue * moveSpeed * Time.deltaTime);
+         rigidbody.AddForce (-theCamera.transform.forward * vertValue * moveSpeed * Time.deltaTime);
       }
 
       if (Input.GetAxis ("Horizontal") != 0) {
-         rigidbody.AddTorque (transform.up * horValue * turnSpeed * Time.deltaTime);
+         rigidbody.AddForce (theCamera.transform.right * horValue * turnSpeed * Time.deltaTime);
          //transform.Rotate (Vector3.up * -turnSpeed * Time.deltaTime);
       }
 
