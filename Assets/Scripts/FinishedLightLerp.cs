@@ -3,77 +3,77 @@ using System.Collections;
 
 public class FinishedLightLerp : MonoBehaviour
 {
-		public float smooth = 1;
+   public float smooth = 1;
 
-		private Vector3 newPosition;
-		private float newIntensity;
-		private Color newColour;
+   private Vector3 newPosition;
+   private float newIntensity;
+   private Color newColour;
 
-		void Awake ()
-		{
+   void Awake ()
+   {
 
-				newPosition = transform.position;
-				newIntensity = light.intensity;
-				newColour = light.color;
-		}
-		// Use this for initialization
-		void Start ()
-		{
+      newPosition = transform.position;
+      newIntensity = light.intensity;
+      newColour = light.color;
+   }
+   // Use this for initialization
+   void Start ()
+   {
 
-		}
+   }
 	
-		// Update is called once per frame
-		void Update ()
-		{
-				PositionChanging ();
-				IntensityChanging ();
-				ColourChanging ();
-		}
+   // Update is called once per frame
+   void Update ()
+   {
+      //PositionChanging ();
+      IntensityChanging ();
+      ColourChanging ();
+   }
 
-		void PositionChanging ()
-		{
-				Vector3 positionA = new Vector3 (-5, 3, 0);
-				Vector3 positionB = new Vector3 (5, 3, 0);
+   void PositionChanging ()
+   {
+      Vector3 positionA = new Vector3 (-5, 3, 0);
+      Vector3 positionB = new Vector3 (5, 3, 0);
 
-				if (Input.GetKeyDown (KeyCode.Q)) {
-						newPosition = positionA;
-				} 
-				if (Input.GetKeyDown (KeyCode.E)) {
-						newPosition = positionB;
-				}
+      if (Input.GetKeyDown (KeyCode.Q)) {
+         newPosition = positionA;
+      } 
+      if (Input.GetKeyDown (KeyCode.E)) {
+         newPosition = positionB;
+      }
 
-				transform.position = Vector3.Lerp (transform.position, newPosition, smooth * Time.deltaTime);
-		}
+      transform.position = Vector3.Lerp (transform.position, newPosition, smooth * Time.deltaTime);
+   }
 
-		void IntensityChanging ()
-		{
-				float intensityA = 0.5f;
-				float intensityB = 5f;
+   void IntensityChanging ()
+   {
+      float intensityA = 0.5f;
+      float intensityB = 5f;
 
-				if (Input.GetKeyDown (KeyCode.A)) {
-						newIntensity = intensityA;
-				}
-				if (Input.GetKeyDown (KeyCode.D)) {
-						newIntensity = intensityB;
-				}
+      if (Input.GetKeyDown (KeyCode.A)) {
+         newIntensity = intensityA;
+      }
+      if (Input.GetKeyDown (KeyCode.D)) {
+         newIntensity = intensityB;
+      }
 
-				light.intensity = Mathf.Lerp (light.intensity, newIntensity, smooth * Time.deltaTime);
-		}
+      light.intensity = Mathf.Lerp (light.intensity, newIntensity, smooth * Time.deltaTime);
+   }
 
-		void ColourChanging ()
-		{
-				Color colourA = Color.red;
-				Color colourB = Color.green;
+   void ColourChanging ()
+   {
+      Color colourA = Color.red;
+      Color colourB = Color.green;
 
-				if (Input.GetKeyDown (KeyCode.Z)) {
-						newColour = colourA;
-				}
-				if (Input.GetKeyDown (KeyCode.C)) {
-						newColour = colourB;
-				}
+      if (Input.GetKeyDown (KeyCode.Z)) {
+         newColour = colourA;
+      }
+      if (Input.GetKeyDown (KeyCode.C)) {
+         newColour = colourB;
+      }
 
-				light.color = Color.Lerp (light.color, newColour, smooth * Time.deltaTime);
-		}
+      light.color = Color.Lerp (light.color, newColour, smooth * Time.deltaTime);
+   }
 
 
 }
