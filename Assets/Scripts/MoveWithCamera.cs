@@ -28,7 +28,9 @@ public class MoveWithCamera : MonoBehaviour
          rigidbody.AddForce (theCamera.transform.right * horValue * turnSpeed * Time.deltaTime);
          //transform.Rotate (Vector3.up * -turnSpeed * Time.deltaTime);
       }
-
+      Vector3 lookTowards = 2 * transform.position - theCamera.transform.position;
+      lookTowards.y = transform.position.y;
+      transform.LookAt (lookTowards);
    }
 
 }

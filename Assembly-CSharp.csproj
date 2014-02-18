@@ -148,7 +148,9 @@
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\ScopeAndAccessModifiers.cs" />
      <Compile Include="Assets\Scripts\ScrollingUVs.cs" />
+     <Compile Include="Assets\Scripts\SingleCharacterScript.cs" />
      <Compile Include="Assets\Scripts\Spin.cs" />
+     <Compile Include="Assets\Scripts\TimeoutDestroy.cs" />
      <Compile Include="Assets\Scripts\TransformFunctions.cs" />
      <Compile Include="Assets\Scripts\UpdateAndFixedUpdate.cs" />
      <Compile Include="Assets\Scripts\UsingDeltaTime.cs" />

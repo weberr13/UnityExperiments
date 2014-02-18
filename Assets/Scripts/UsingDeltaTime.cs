@@ -3,7 +3,7 @@ using System.Collections;
 
 public class UsingDeltaTime : MonoBehaviour
 {
-   public float speed = 8f;
+   //public float speed = 8f;
    public float countdown = 3f;
 
    void Start ()
@@ -19,9 +19,9 @@ public class UsingDeltaTime : MonoBehaviour
          light.enabled = !light.enabled;
          countdown = 3f;
       }
-      if (Input.GetKey (KeyCode.RightArrow)) {
-         transform.position += new Vector3 (speed * Time.deltaTime, 0f, 0f);
-      }
+      //if (Input.GetKey (KeyCode.RightArrow)) {
+      //   transform.position += new Vector3 (speed * Time.deltaTime, 0f, 0f);
+      //}
    }
 
 }
