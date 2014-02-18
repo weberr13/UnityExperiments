@@ -87,7 +87,7 @@ GameObject:
   - 23: {fileID: 74435230}
   - 114: {fileID: 74435234}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 74435229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.4617748, y: 1.60000002, z: 4.5}
+  m_LocalPosition: {x: 11.5, y: 1.60000002, z: 4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - 23: {fileID: 175787841}
   - 54: {fileID: 175787840}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,7 +238,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 175787839}
   m_LocalRotation: {x: .707106829, y: 6.18172464e-08, z: 6.18172464e-08, w: -.707106829}
-  m_LocalPosition: {x: 1.48155761, y: 6.70273209, z: -10.5003099}
+  m_LocalPosition: {x: 1.5, y: 6.5999999, z: -10.5003099}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - 23: {fileID: 267640093}
   - 54: {fileID: 267640092}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,7 +324,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 267640091}
   m_LocalRotation: {x: -.5, y: .5, z: .5, w: .5}
-  m_LocalPosition: {x: -3.46929646, y: 6.70273209, z: 4.43704462}
+  m_LocalPosition: {x: -3.5, y: 6.5999999, z: 4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - 23: {fileID: 354303716}
   - 54: {fileID: 354303715}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -410,7 +410,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 354303714}
   m_LocalRotation: {x: -.5, y: .5, z: .5, w: .5}
-  m_LocalPosition: {x: 16.2789536, y: 6.70273209, z: -5.56033945}
+  m_LocalPosition: {x: 16.5, y: 6.5999999, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -428,7 +428,7 @@ GameObject:
   - 114: {fileID: 355775787}
   - 114: {fileID: 355775788}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +482,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 355775782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.4617748, y: 1.60000002, z: -5.5}
+  m_LocalPosition: {x: 11.5, y: 1.60000002, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   - 23: {fileID: 412833850}
   - 54: {fileID: 412833849}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -591,7 +591,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 412833848}
   m_LocalRotation: {x: .707106829, y: 6.18172464e-08, z: 6.18172464e-08, w: -.707106829}
-  m_LocalPosition: {x: 11.4803877, y: 6.70273209, z: -10.5003099}
+  m_LocalPosition: {x: 11.5, y: 6.5999999, z: -10.5003099}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   - 23: {fileID: 1000669047}
   - 114: {fileID: 1000669051}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -965,7 +965,7 @@ GameObject:
   - 23: {fileID: 1109003567}
   - 54: {fileID: 1109003566}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1034,7 +1034,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1109003565}
   m_LocalRotation: {x: .707106829, y: 6.18172464e-08, z: 6.18172464e-08, w: -.707106829}
-  m_LocalPosition: {x: 11.5, y: 6.70273209, z: 9.25228977}
+  m_LocalPosition: {x: 11.5, y: 6.5999999, z: 9.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1079,7 +1079,7 @@ GameObject:
   - 23: {fileID: 1339817984}
   - 114: {fileID: 1339817988}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1161,7 +1161,7 @@ GameObject:
   - 23: {fileID: 1401953138}
   - 54: {fileID: 1401953137}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1230,7 +1230,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1401953136}
   m_LocalRotation: {x: -.5, y: .5, z: .5, w: .5}
-  m_LocalPosition: {x: -3.47195387, y: 6.70273209, z: -5.56033945}
+  m_LocalPosition: {x: -3.5, y: 6.5999999, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1461,7 +1461,7 @@ GameObject:
   - 23: {fileID: 1853330751}
   - 54: {fileID: 1853330750}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1530,7 +1530,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1853330749}
   m_LocalRotation: {x: .707106829, y: 6.18172464e-08, z: 6.18172464e-08, w: -.707106829}
-  m_LocalPosition: {x: 1.5, y: 6.70273209, z: 9.27959442}
+  m_LocalPosition: {x: 1.5, y: 6.5999999, z: 9.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1547,7 +1547,7 @@ GameObject:
   - 23: {fileID: 1944700531}
   - 54: {fileID: 1944700530}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: SideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1616,7 +1616,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1944700529}
   m_LocalRotation: {x: -.5, y: .5, z: .5, w: .5}
-  m_LocalPosition: {x: 16.2967815, y: 6.70273209, z: 4.43704462}
+  m_LocalPosition: {x: 16.5, y: 6.5999999, z: 4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
