@@ -1343,6 +1343,8 @@ GameObject:
   - 114: {fileID: 1718416736}
   - 114: {fileID: 1718416737}
   - 114: {fileID: 1718416738}
+  - 114: {fileID: 1718416740}
+  - 114: {fileID: 1718416739}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1437,6 +1439,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 1
   textOutput: {fileID: 1972828307}
+--- !u!114 &1718416739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1718416731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4397c3a08a2450f4cbd02c321a331375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 9001
+--- !u!114 &1718416740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1718416731}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d798fbdf7a52ec94a9f6a1e5f69987ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherGameObject: {fileID: 2057541036}
 --- !u!1 &1853330749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,13 +1698,15 @@ GameObject:
   - 23: {fileID: 2057541038}
   - 114: {fileID: 2057541042}
   - 108: {fileID: 2057541037}
-  - 114: {fileID: 2057541043}
   - 114: {fileID: 2057541044}
   - 114: {fileID: 2057541045}
   - 114: {fileID: 2057541047}
   - 54: {fileID: 2057541046}
   - 64: {fileID: 2057541048}
   - 114: {fileID: 2057541049}
+  - 114: {fileID: 2057541050}
+  - 114: {fileID: 2057541051}
+  - 114: {fileID: 2057541052}
   m_Layer: 0
   m_Name: Moving Box Light
   m_TagString: Untagged
@@ -1783,19 +1811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d86294640dd5c42ab1635feaf85d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2057541043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2057541036}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b8c6e85f62e5e14a86f49c1976ec558, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  turnSpeed: 50
 --- !u!114 &2057541044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1874,3 +1889,40 @@ MonoBehaviour:
   moveSpeed: 100
   turnSpeed: 50
   theCamera: {fileID: 1626259360}
+--- !u!114 &2057541050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057541036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f4b37e2cb1aeb41adc3d4a9444991f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPlayerDeaths: 3
+--- !u!114 &2057541051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057541036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d798fbdf7a52ec94a9f6a1e5f69987ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherGameObject: {fileID: 0}
+--- !u!114 &2057541052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057541036}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f3b6c9da160ec44857fabb545ea02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  countdown: 3
