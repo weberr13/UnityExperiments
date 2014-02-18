@@ -128,6 +128,7 @@
      <Compile Include="Assets\Scripts\CaptureNormals.cs" />
      <Compile Include="Assets\Scripts\CheckState.cs" />
      <Compile Include="Assets\Scripts\ClickColourChange.cs" />
+     <Compile Include="Assets\Scripts\DatatypeScript.cs" />
      <Compile Include="Assets\Scripts\DestroyBasic.cs" />
      <Compile Include="Assets\Scripts\DestroyComponent.cs" />
      <Compile Include="Assets\Scripts\DestroyOther.cs" />
