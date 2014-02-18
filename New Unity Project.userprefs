@@ -7,7 +7,8 @@
       <File FileName="Assets\Scripts\UsingOtherComponents.cs" Line="23" Column="92" />
       <File FileName="Assets\Scripts\AnotherScript.cs" Line="7" Column="34" />
       <File FileName="Assets\Scripts\YetAnotherScript.cs" Line="10" Column="1" />
-      <File FileName="Assets\Scripts\DatatypeScript.cs" Line="15" Column="39" />
+      <File FileName="Assets\Scripts\DatatypeScript.cs" Line="11" Column="3" />
+      <File FileName="Assets\Scripts\UsingDeltaTime.cs" Line="21" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
