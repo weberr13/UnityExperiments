@@ -116,6 +116,7 @@
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
      <Compile Include="Assets\Scripts\ActiveObjects.cs" />
      <Compile Include="Assets\Scripts\AnotherClass.cs" />
+     <Compile Include="Assets\Scripts\AnotherScript.cs" />
      <Compile Include="Assets\Scripts\AudioOffset.cs" />
      <Compile Include="Assets\Scripts\AwakeAndStart.cs" />
      <Compile Include="Assets\Scripts\AxisExample.cs" />
@@ -149,9 +150,11 @@
      <Compile Include="Assets\Scripts\Spin.cs" />
      <Compile Include="Assets\Scripts\TransformFunctions.cs" />
      <Compile Include="Assets\Scripts\UpdateAndFixedUpdate.cs" />
+     <Compile Include="Assets\Scripts\UsingOtherComponents.cs" />
      <Compile Include="Assets\Scripts\VariablesAndFunctions.cs" />
      <Compile Include="Assets\Scripts\WheelsRotation.cs" />
      <Compile Include="Assets\Scripts\WhileLoop.cs" />
+     <Compile Include="Assets\Scripts\YetAnotherScript.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
