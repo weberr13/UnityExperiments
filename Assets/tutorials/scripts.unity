@@ -1792,9 +1792,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2057541041}
-  - 33: {fileID: 2057541040}
-  - 65: {fileID: 2057541039}
-  - 23: {fileID: 2057541038}
   - 114: {fileID: 2057541042}
   - 108: {fileID: 2057541037}
   - 114: {fileID: 2057541044}
@@ -1807,6 +1804,9 @@ GameObject:
   - 114: {fileID: 2057541051}
   - 114: {fileID: 2057541052}
   - 114: {fileID: 2057541043}
+  - 33: {fileID: 2057541040}
+  - 23: {fileID: 2057541038}
+  - 64: {fileID: 2057541039}
   m_Layer: 0
   m_Name: Moving Box Light
   m_TagString: Untagged
@@ -1861,7 +1861,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 526fd8086264d0b4bb8b73a29dc59464, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1870,25 +1870,26 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
---- !u!65 &2057541039
-BoxCollider:
+--- !u!64 &2057541039
+MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2057541036}
-  m_Material: {fileID: 13400000, guid: 5410a64fad11e8d6d00011d98d76c639, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: 0aed488497eb51347a438027edc15623, type: 3}
 --- !u!33 &2057541040
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2057541036}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 0aed488497eb51347a438027edc15623, type: 3}
 --- !u!4 &2057541041
 Transform:
   m_ObjectHideFlags: 0
@@ -1897,7 +1898,7 @@ Transform:
   m_GameObject: {fileID: 2057541036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.66917801, y: 3.61597681, z: .108786106}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!114 &2057541042
@@ -1988,7 +1989,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 1
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 0aed488497eb51347a438027edc15623, type: 3}
 --- !u!114 &2057541049
 MonoBehaviour:
   m_ObjectHideFlags: 0
