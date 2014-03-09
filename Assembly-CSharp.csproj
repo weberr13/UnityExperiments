@@ -136,9 +136,11 @@
      <Compile Include="Assets\Scripts\DoWhileLoop.cs" />
      <Compile Include="Assets\Scripts\DualAxisExample.cs" />
      <Compile Include="Assets\Scripts\EnableComponents.cs" />
+     <Compile Include="Assets\Scripts\ExplodingBullets.cs" />
      <Compile Include="Assets\Scripts\FinishedLightLerp.cs" />
      <Compile Include="Assets\Scripts\ForLoop.cs" />
      <Compile Include="Assets\Scripts\ForeachLoop.cs" />
+     <Compile Include="Assets\Scripts\Hover.cs" />
      <Compile Include="Assets\Scripts\IfStatements.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\InvokeRepeating.cs" />
@@ -147,6 +149,7 @@
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\MoveWithCamera.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Pop.cs" />
      <Compile Include="Assets\Scripts\Punch.cs" />
      <Compile Include="Assets\Scripts\RandomFloorBotMovement.cs" />
      <Compile Include="Assets\Scripts\RocketDestruction.cs" />
@@ -155,9 +158,11 @@
      <Compile Include="Assets\Scripts\ScrollingUVs.cs" />
      <Compile Include="Assets\Scripts\Shooting.cs" />
      <Compile Include="Assets\Scripts\SingleCharacterScript.cs" />
+     <Compile Include="Assets\Scripts\SlowMovingPlatformY.cs" />
      <Compile Include="Assets\Scripts\Spin.cs" />
      <Compile Include="Assets\Scripts\TimeoutDestroy.cs" />
      <Compile Include="Assets\Scripts\TransformFunctions.cs" />
+     <Compile Include="Assets\Scripts\TriggerDoorOpen.cs" />
      <Compile Include="Assets\Scripts\UpdateAndFixedUpdate.cs" />
      <Compile Include="Assets\Scripts\UsingDeltaTime.cs" />
      <Compile Include="Assets\Scripts\UsingInstantiate.cs" />
