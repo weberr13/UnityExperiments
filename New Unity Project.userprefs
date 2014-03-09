@@ -1,8 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\InvokeRepeating.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Hover.cs">
     <Files>
-      <File FileName="Assets\Scripts\InvokeRepeating.cs" Line="21" Column="7" />
+      <File FileName="Assets\Scripts\TriggerDoorOpen.cs" Line="13" Column="39" />
+      <File FileName="Assets\Scripts\EnableComponents.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ExplodingBullets.cs" Line="23" Column="31" />
+      <File FileName="Assets\Scripts\Hover.cs" Line="18" Column="8" />
+      <File FileName="Assets\Scripts\InvokeRepeating.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pop.cs" Line="16" Column="9" />
+      <File FileName="Assets\Scripts\ButtonInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraLookAt.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CaptureNormals.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SlowMovingPlatformY.cs" Line="23" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
